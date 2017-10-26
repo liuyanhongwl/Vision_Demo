@@ -10,6 +10,7 @@
 #import "DSFaceViewController.h"
 #import "DSVisionTool.h"
 #import "CameraCaptureController.h"
+#import "ChangeFaceViewController.h"
 
 @interface VisionViewController ()
 @property (nonatomic, strong)NSArray *dataArray;
@@ -22,7 +23,7 @@
     
     self.clearsSelectionOnViewWillAppear = NO;
     self.tableView.tableFooterView = [UIView new];
-    self.dataArray = @[@"人脸识别",@"特征识别",@"文字识别",@"实时检测Face",@"实时动态添加"];
+    self.dataArray = @[@"人脸识别",@"特征识别",@"文字识别",@"实时检测Face",@"实时动态添加",@"交换人脸"];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"reuseIdentifier"];
 }
 
@@ -64,6 +65,11 @@
     }
     if ([content isEqualToString:@"实时动态添加"]) {
         CameraCaptureController *vc = [[CameraCaptureController alloc]initWithDetectionType:DSDetectionTypeFaceHat];
+        [self.navigationController pushViewController:vc animated:YES];
+        return;
+    }
+    if ([content isEqualToString:@"交换人脸"]) {
+        ChangeFaceViewController *vc = [[ChangeFaceViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
         return;
     }

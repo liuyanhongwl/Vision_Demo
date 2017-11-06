@@ -242,7 +242,6 @@ UIGraphicsEndImageContext();
 - http://www.jianshu.com/p/174b7b67acc9
 - http://www.jianshu.com/p/e371099f12bd
 - https://github.com/NilStack/HelloVision
-- https://www.atatech.org/articles/81702
 - https://developer.apple.com/documentation/vision
 - https://github.com/jeffreybergier/Blog-Getting-Started-with-Vision
 - https://tech.iheart.com/iheart-wwdc-familiar-faces-1093fe751d9e

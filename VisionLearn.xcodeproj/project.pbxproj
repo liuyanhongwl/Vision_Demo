@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		287CF3881FA180A3005A0B7D /* ChangeFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287CF3871FA180A3005A0B7D /* ChangeFaceViewController.m */; };
+		28B0023C1FAB3D140063EAA8 /* CameraChangeFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B0023A1FAB3D130063EAA8 /* CameraChangeFaceViewController.m */; };
 		996B687C1F0E666D00A95CF1 /* DSFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 996B687B1F0E666D00A95CF1 /* DSFaceViewController.m */; };
 		996CE3191EF3B87F00A36EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996CE3171EF3B87F00A36EC2 /* Main.storyboard */; };
 		996CE31B1EF3B87F00A36EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996CE31A1EF3B87F00A36EC2 /* Assets.xcassets */; };
@@ -27,6 +28,8 @@
 /* Begin PBXFileReference section */
 		287CF3861FA180A3005A0B7D /* ChangeFaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeFaceViewController.h; sourceTree = "<group>"; };
 		287CF3871FA180A3005A0B7D /* ChangeFaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeFaceViewController.m; sourceTree = "<group>"; };
+		28B0023A1FAB3D130063EAA8 /* CameraChangeFaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraChangeFaceViewController.m; sourceTree = "<group>"; };
+		28B0023B1FAB3D140063EAA8 /* CameraChangeFaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraChangeFaceViewController.h; sourceTree = "<group>"; };
 		996B687A1F0E666D00A95CF1 /* DSFaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSFaceViewController.h; sourceTree = "<group>"; };
 		996B687B1F0E666D00A95CF1 /* DSFaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSFaceViewController.m; sourceTree = "<group>"; };
 		996CE30E1EF3B87F00A36EC2 /* VisionLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +122,8 @@
 				999B28551F27251F00876DDA /* CameraCaptureController.m */,
 				287CF3861FA180A3005A0B7D /* ChangeFaceViewController.h */,
 				287CF3871FA180A3005A0B7D /* ChangeFaceViewController.m */,
+				28B0023B1FAB3D140063EAA8 /* CameraChangeFaceViewController.h */,
+				28B0023A1FAB3D130063EAA8 /* CameraChangeFaceViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 				99DFB3601F0BD60F00DE3786 /* UIImage+ImageColor.m in Sources */,
 				99E865841F0643FD003AF522 /* AppDelegate.m in Sources */,
 				9989F3D71F1C71C50094839E /* DSVisionTool.m in Sources */,
+				28B0023C1FAB3D140063EAA8 /* CameraChangeFaceViewController.m in Sources */,
 				996CE3211EF3B87F00A36EC2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

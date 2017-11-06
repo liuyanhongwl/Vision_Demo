@@ -10,6 +10,13 @@
 typedef void(^detectFaceRequestHandler)(VNRequest *request, NSError * _Nullable error);
 
 @interface CameraCaptureController () <AVCaptureVideoDataOutputSampleBufferDelegate>
+{
+    AVCaptureSession *_captureSession;
+    AVCaptureDevice *_videoDevice;
+    AVCaptureDeviceInput *_videoInput;
+    AVCaptureVideoDataOutput *_dataOutput;
+    AVCaptureVideoPreviewLayer *_captureVideoPreviewLayer;
+}
 @property (nonatomic, strong)NSMutableArray *layers;
 @property (nonatomic, strong)NSMutableArray *hats;
 
